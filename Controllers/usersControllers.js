@@ -2,7 +2,8 @@ const users = require("../models/usersSchema");
 const moment = require("moment");
 const csv = require("fast-csv");
 const fs = require("fs");
-const BASE_URL = process.env.BASE_URL
+const BASE_URL = "https://akshaybackend.onrender.com"
+// process.env.BASE_URL
 
 // register user
 exports.userpost = async (req, res) => {
